@@ -16,6 +16,7 @@ h1{
 .half-width{
     width:50%;
     padding-left: 2%;
+    
 }
 .half-width img{
   
@@ -40,4 +41,37 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(61, 60, 58);
+    
+   
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+    background-position: left;
+
+}
+#web-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+#baby-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(255, 230, 0, 0.459), rgb(32, 63, 104));
+    border-image-slice: 1;
+    
+}
+footer p{
+
+    text-align: center;
 }
